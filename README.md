@@ -1,4 +1,4 @@
-# NumMethods
+# NumericalMethods
 This repository contains files to complete a variety of numerical algorithms relevant to computational physics and chemistry.
 
 ## Integrals

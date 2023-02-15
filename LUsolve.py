@@ -23,12 +23,13 @@ def LUPPsolve(A,v):
     x = BackSub(U,y)
     return x
 
-A = np.array([[2,  1,  4,  1],
-              [3,  4, -1, -1],
-              [1, -4,  1,  5],
-              [2, -2,  1,  3]], float)
-v = np.array([-4, 3, 9, 7], float)
-b = LUsolve(A,v)
-bPP = LUPPsolve(A,v)
-print(b)
-print(bPP)
+if __name__ == "__main__":
+    A = np.array([[2,  1,  4,  1],
+                [3,  4, -1, -1],
+                [1, -4,  1,  5],
+                [2, -2,  1,  3]], float)
+    v = np.array([-4, 3, 9, 7], float)
+    b = LUsolve(A,v)
+    bPP = LUPPsolve(A,v)
+    print(b)
+    print(bPP)

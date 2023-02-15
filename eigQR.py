@@ -28,8 +28,9 @@ def eigQR(A):
         d[i] = D[i,i]
     return d, V
 
-A = np.array([[1, 2],
-              [2, 1]], float)
-d, V = eigQR(A)
-print(d)
-print(V)
+if __name__ == "__main__":
+    A = np.array([[1, 2],
+                [2, 1]], float)
+    d, V = eigQR(A)
+    print(d)
+    print(V)

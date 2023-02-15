@@ -24,11 +24,12 @@ def GaussElimPP(A0,v):
             v[i] -= mult*v[j]
     return A,v
 
-A = np.array([[2,  1,  4,  1],
-              [3,  4, -1, -1],
-              [1, -4,  1,  5],
-              [2, -2,  1,  3]], float)
-v = np.array([-4, 3, 9, 7], float)
-A, v = GaussElimPP(A,v)
-b = BackSub(A,v)
-print(b)
+if __name__ == "__main__":
+    A = np.array([[2,  1,  4,  1],
+                [3,  4, -1, -1],
+                [1, -4,  1,  5],
+                [2, -2,  1,  3]], float)
+    v = np.array([-4, 3, 9, 7], float)
+    A, v = GaussElimPP(A,v)
+    b = BackSub(A,v)
+    print(b)

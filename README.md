@@ -20,3 +20,9 @@ This repository contains files to complete a variety of numerical algorithms rel
 - BulirschStoer_ODE.py --> performs the Bulirsch-Stoer method for ODEs
 - JacobiORGS_PDE.py --> performs the Jacobi method using overrelaxation/Gauss-Seidel speed up for PDEs
 - FTCS_PDE.py --> performs the FTCS method for PDEs
+
+## Monte Carlo
+- MonteCarlo.py --> performs as Monte Carlo simulation for the decay of (213)Bi as an example
+- MCintegration.py --> performs Monte Carlo integration for the volume of a 10D unit hypersphere as an example
+- MCIimportancesampling.py --> performs Monte Carlo integration with importance sampling on an example integral
+- SimulatedAnnealing.py --> performs the simulated annealing method to find the global minimum of a function with two examples provided

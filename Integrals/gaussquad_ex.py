@@ -6,8 +6,6 @@ import numpy as np
 from gaussxw import gaussxw
 import matplotlib.pyplot as plt
 
-print('Problem 3: Exercise 5.10')
-
 def f(x,a):
     return 1/np.sqrt(a**4-x**4)
 
